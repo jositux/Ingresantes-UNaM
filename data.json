@@ -1,0 +1,86 @@
+{
+    "categorias": [
+        {
+            "title": "Arte y Diseño",
+            "subCategorias": [
+                {
+                    "nombre": "Nuevas Tecnologías",
+                    "carreras": [
+                        {
+                            "nombre": "Diseño Gráfico",
+                            "referencia": "0"
+                        },
+                        {
+                            "nombre": "Diseño Industrial",
+                            "referencia": "0"
+                        },
+                        {
+                            "nombre": "A de sistemas",
+                            "referencia": "1"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Creatividad",
+                    "carreras": [
+                        {
+                            "nombre": "Diseño Grafico",
+                            "referencia": "0"
+                        },
+                        {
+                            "nombre": "Medios audivisuales",
+                            "referencia": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ciencia y matematicas",
+            "subCategorias": [
+                {
+                    "nombre": "Cálculos",
+                    "carreras": [
+                        {
+                            "nombre": "Profesorado en matemática",
+                            "referencia": "2"
+                        },
+                        {
+                            "nombre": "Ingeniería Química",
+                            "referencia": "3"
+                        },
+                        {
+                            "nombre": "Ingeniería Electrónica",
+                            "referencia": "4"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Ciencias de la naturaleza",
+                    "carreras": [
+                        {
+                            "nombre": "Lic. en Genética",
+                            "referencia": "2"
+                        },
+                        {
+                            "nombre": "Ingeniería Forestal",
+                            "referencia": "5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "facultades": [
+        {
+            "title": "FAYD",
+            "direccion": "Tinogasta y Rauch",
+            "ciudad": "Oberá"
+        },
+        {
+            "title": "FIO",
+            "direccion": "Rauch 450",
+            "ciudad": "Oberá"
+        }
+    ]
+}
