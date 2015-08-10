@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JSON Sample</title>
+</head>
+<body>
+	<div id="categorias"></div>
+	<a class="categoria" rel="0">Click 0</a><br>
+    <a class="categoria" rel="1">Click 1</a>
+    <div id="subcategorias"></div>
+    <div id="carreras"></div>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script>
+	$(function() {
+		var jsonData;
+		var jsonDataFac;
+
+		function iniciar(callback) {
+			$.getJSON('data.json', function(data) {
+				callback(data);
+			});
+		}
+
+		iniciar(function(data) {
+			jsonData = data.categorias;
+			jsonDataFac = data.facultades;
+
+			var output = "<ul>";
+			for (var i in jsonData) {
+				output += "<li>" + jsonData[i].title + "</li>";
+			}
+			output += "</ul>";
+			document.getElementById("categorias").innerHTML = output;
+
+		});
+
+		$("body").on("click", "a.categoria", function(event) {
+			event.preventDefault();
+			console.log($(this).attr("rel"));
+			console.log(jsonData);
+			console.log(jsonDataFac);
+
+			var index = parseInt($(this).attr("rel"));
+			var output = "<ul>";
+			for (var i in jsonData) {
+				output += "<li>" + jsonData[i].subCategorias[index].nombre + "</li>";
+			}
+			output += "</ul>";
+			document.getElementById("subcategorias").innerHTML = output;
+
+		});
+
+	});
+	</script>
+    
+
+</body>
+</html>
