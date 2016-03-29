@@ -1,40 +1,40 @@
-# HideSeek
+# Buscador de carreras basado en
 
 [![npm version](https://badge.fury.io/js/hideseek.png)](http://badge.fury.io/js/hideseek)
 
-A simple, yet customizable quick/live search jQuery plugin
+basado en jQuery
 
-* [Demonstration page][1]
-* [Documentation (wiki)][3]
+* [Demo page][1]
+* [Docs (wiki)][3]
 
 ## Features
 
-* Search in text or title/alt attribute
-* Highlight
-* Navigation
-* Ignore elements
-* Ignore accented characters
-* Custom events
-* Custom messages
-* Hidden mode
-* Support lists with headings
+* Bsca en el texto o atributo title/alt
+* Foco en selección con teclado
+* Navegable con teclado
+* Selección de elementos a ignorar
+* Ignora tildes y caracteres raros
+* Eventos configurables
+* Mensajes configurables ante la acción
+* Opción de Modo por defecto oculto
+* Soporta listas con foco en los items
 
-## Compatibility
+## Compatible con
 
-Compatible with IE7+, Chrome, Firefox, Safari
+IE7+, Chrome, Firefox, Safari
 and jQuery 1.8.x, 1.9.x, 1.11.x, 1.12.x, 2.1.x, 2.2.x.
 
 ## Questions/Answers and Enhancements
 
-Do you have any questions? First, take a look [here][6].
+FAQ? Primero mirar en [aquí][6].
 
-Or if you are looking for enhancements, [here][7].
+O ver las mejoras [aquí][7].
 
-## Credits
+## Creditos originales
 * [Stevy.gr][4]
 * [Prince.gr][5]
 
-## Copyright and license
+## Copyright y licencia
 
 Copyright 2015 Dimitris Krestos
 
