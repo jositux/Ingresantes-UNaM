@@ -7,7 +7,7 @@ basado en jQuery
 * [Demo page][1]
 * [Docs (wiki)][3]
 
-## Features
+## Funcionalidades
 
 * Busca en el texto o atributo title/alt
 * Foco en selección con teclado
@@ -24,7 +24,7 @@ basado en jQuery
 IE7+, Chrome, Firefox, Safari
 and jQuery 1.8.x, 1.9.x, 1.11.x, 1.12.x, 2.1.x, 2.2.x.
 
-## Questions/Answers and Enhancements
+## Preguntas y mejoras
 
 FAQ? Primero mirar en [aquí][6].
 
