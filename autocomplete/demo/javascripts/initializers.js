@@ -8,12 +8,13 @@ $(document).ready(function() {
 	});
 
   $('#search-nodata').hideseek({
-    nodata: 'No results found'
+    nodata: 'No hay resultados en tu búsqueda'
   });
 
   $('#search-navigation').hideseek({
-    nodata: 'No results found',
-    navigation: true
+    nodata: 'No hay resultados en tu búsqueda',
+    navigation: true,
+    hidden_mode: true
   });
 
   $('#search-ignore').hideseek({
