@@ -14,7 +14,8 @@ $(document).ready(function() {
   $('#search-navigation').hideseek({
     nodata: 'No hay resultados en tu búsqueda',
     navigation: true,
-    hidden_mode: true
+    hidden_mode: true,
+    highlight: true
   });
 
   $('#search-ignore').hideseek({
