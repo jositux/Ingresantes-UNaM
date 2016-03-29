@@ -9,7 +9,7 @@ basado en jQuery
 
 ## Features
 
-* Bsca en el texto o atributo title/alt
+* Busca en el texto o atributo title/alt
 * Foco en selección con teclado
 * Navegable con teclado
 * Selección de elementos a ignorar
