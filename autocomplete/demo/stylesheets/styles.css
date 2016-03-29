@@ -225,3 +225,7 @@ FOOTER {
 	font-weight: bold;
 	margin-left: 8px;
 }
+
+mark {
+    background: #88DDFF;
+}
