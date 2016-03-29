@@ -10,7 +10,7 @@ basado en jQuery
 ## Funcionalidades
 
 * Busca en el texto o atributo title/alt
-* Foco en selección con teclado
+* Iluminado de letras coincidentes
 * Navegable con teclado
 * Selección de elementos a ignorar
 * Ignora tildes y caracteres raros
